@@ -1,21 +1,23 @@
 <div class="sidenav-links">
   <h1>Rich</h1>
-  <ul class="nav sidebar-nav">
-    <li>
-      <a md-menu-item routerLink="/">Home</a>
-    </li>
-    <br>
-    <li>
-      <a md-menu-item routerLink="/projects">Projects</a>
-    </li>
-    <li>
-      <a md-menu-item href="/resume">Resume</a>
-    </li>
-    <li>
-      <a md-menu-item href="#">Contact</a>
-    </li>
-    <li>
-      <a md-menu-item href="/photography">Photography</a>
-    </li>
-  </ul>
+  <button md-menu-item routerLink="/">
+    <md-icon>home</md-icon>
+    <span>Home</span>
+  </button>
+  <button md-menu-item routerLink="/resume">
+    <md-icon>work</md-icon>
+    <span>Resume</span>
+  </button>
+  <button md-menu-item routerLink="/projects">
+    <md-icon>web</md-icon>
+    <span>Projects</span>
+  </button>
+  <button md-menu-item routerLink="/photography">
+    <md-icon>camera_roll</md-icon>
+    <span>Photography</span>
+  </button>
+  <button md-menu-item routerLink="#">
+    <md-icon>mail_outline</md-icon>
+    <span>Contact</span>
+  </button>
 </div>
